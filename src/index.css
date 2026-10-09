@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #183947;
+  background: #f5faf8;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --ink: #183947;
+  --muted: #647a7d;
+  --paper: #f5faf8;
+  --line: #dce8e5;
+  --seafoam: #9adfd5;
+  --deep-teal: #17566b;
+  --coral: #e9785a;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; min-height: 100vh; background: var(--paper); }
+button, input, select, textarea { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+a { color: inherit; text-decoration: none; }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 3px solid #287c83; outline-offset: 3px; }
+::selection { color: var(--ink); background: var(--seafoam); }
+#root { min-height: 100vh; display: flex; flex-direction: column; }
